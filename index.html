@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Portfólio</title>
+    </head>
+    <body>
+        <header>
+            <img src="./assets/avatar.jpeg" alt="avatar" class="avatar" />
+            <custom-heading text="Guilherme Alcantara"></custom-heading>
+            <div class="icons">
+                <a
+                    href="https://github.com/AlkKawaii"
+                    class="icon"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="./assets/github.svg" alt="GitHub Icon" />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/guilherme-m-alcantara/"
+                    class="icon"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="./assets/linkedin.svg" alt="LinkedIn Icon" />
+                </a>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <custom-heading text="Objetivos" level="2"></custom-heading>
+                    <ul>
+                        <li>Virar um desenvolvedor FullStack decente</li>
+                        <li>
+                            Expandir meus conhecimentos em outros campos do
+                            desenvolvimento
+                        </li>
+                        <li>Conseguir ao menos 2 diplomas na área</li>
+                    </ul>
+                </section>
+                <section>
+                    <custom-heading
+                        text="Formações Acadêmicas"
+                        level="2"></custom-heading>
+                    <ul>
+                        <li>Cursando o Ensino Médio Técnico do UNASP-HT</li>
+                    </ul>
+                </section>
+                <section>
+                    <custom-heading
+                        text="Cursos Realizados"
+                        level="2"></custom-heading>
+                    <p>
+                        Não realizei nenhum curso, devido ao fato de aprender
+                        principalmente de forma autodidata, lendo documentações
+                        e testando na prática. O máximo de conteúdo que uso de
+                        outra forma é tirando dúvidas por meio de vídeos
+                        específicos no youtube.
+                    </p>
+                </section>
+                <section>
+                    <custom-heading
+                        text="Experiência e Projetos"
+                        level="2"></custom-heading>
+                    <ul class="galery">
+                        <li>
+                            <a
+                                href="https://github.com/AlkKawaii/Rent-A-Stalker"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="https://github-readme-stats.vercel.app/api/pin/?username=AlkKawaii&repo=Rent-A-Stalker"
+                                    alt="Card redireciona para página do Github" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/AlkKawaii/ChristmasShop"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="https://github-readme-stats.vercel.app/api/pin/?username=AlkKawaii&repo=ChristmasShop"
+                                    alt="Card redireciona para página do Github" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/AlkKawaii/react-e-afins"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="https://github-readme-stats.vercel.app/api/pin/?username=AlkKawaii&repo=react-e-afins"
+                                    alt="Card redireciona para página do Github" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/AlkKawaii/api-rest"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="https://github-readme-stats.vercel.app/api/pin/?username=AlkKawaii&repo=api-rest"
+                                    alt="Card redireciona para página do Github" />
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <custom-heading
+                        text="Habilidades"
+                        level="2"></custom-heading>
+                    <ul class="skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                        <li>Python</li>
+                        <li>Unity</li>
+                        <li>C#</li>
+                        <li>Entre alguns outros</li>
+                    </ul>
+                </section>
+            </article>
+            <aside>
+                <custom-heading text="Contate-me" level="3"></custom-heading>
+                <form
+                    onsubmit="(event) => { event.preventDefault(); alert('Mensagem enviada!'); }">
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div>
+                        <label for="message">Mensagem:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            maxlength="500"
+                            required></textarea>
+                    </div>
+                    <button
+                        type="submit"
+                        style="border: none; background: none">
+                        <custom-button
+                            color="#70a9db"
+                            text="Enviar"
+                            width="6em"
+                            type="submit"></custom-button>
+                    </button>
+                </form>
+            </aside>
+        </main>
+        <script type="module" src="index.js" defer></script>
+    </body>
+</html>

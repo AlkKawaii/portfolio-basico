@@ -1,2 +1,5 @@
-# portfolio basico
-Portfólio básico feito basicamente para o professor Samuel!!
+# Portfolio Básico
+
+Portfólio básico feito basicamente.
+
+Feito para o professor Samuel!!
